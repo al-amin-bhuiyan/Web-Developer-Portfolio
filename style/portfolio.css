@@ -42,19 +42,60 @@ nav a {
   font-weight: 800;
   line-height: normal;
 }
-.header{
-  background-color: #FFF8F3;
+/* Header style start */
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-  padding: 30px 30px 30px 150px;
+.banner {
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.banner .profile-picture{
+.banner .profile-picture {
   width: 500px;
-  height:600px;
+  height: 600px;
 }
-.banner .banner-content{
+.banner .banner-content {
   text-align: left;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
+.banner-greating {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-info {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.section-title {
+  color:  #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description{
+  color:  #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.about{
+  padding: 130px;
+  border-radius: 10px;
+  margin: 130px 0;
+  background: #fff8f3;
+}
+
+/* Main section style start */
